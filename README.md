@@ -31,18 +31,29 @@ Text Substitution Tool is a Python script that allows you to automatically repla
 
 ### Installation 
 
-1. Clone this repository:
+Clone this repository:
    ```sh
    git clone https://github.com/your-username/text-substitution.git
    cd text-substitution
-
+```
 ### Usage
-2. Install the required library:
+1. Install the required library:
    ```pip install keyboard```
 
-3. Customize the text_substitutions dictionary in the script with your own trigger-replacement pairs.
+2. Customize the text_substitutions dictionary in the script with your own trigger-replacement pairs.
 Run the script using Python in the command line:
 ```python text_substitution.py```
 
-4. Start typing in any text input field.
+3. Start typing in any text input field.
 Whenever you type a space, the script will check if any trigger words are present and replace them with their corresponding replacements.
+
+### Customization
+You can customize the behavior of the tool by modifying the text_substitutions dictionary in the script. Add your trigger words as keys and their corresponding replacements as values.
+
+```
+text_substitutions = {
+    "hlw": "Hello",
+    "crT": "create",
+    # Add more substitutions as needed
+}
+```
