@@ -6,7 +6,7 @@ text_substitutions = {
   "PROfile":"my linkedin is https://www.linkedin.com/in/tcode/"
     # Add more substitutions as required by you
 }
-
+types_chars=""
 def expand_text(e):
   global typed_chars
   if e.event_type == keyboard.KEY_DOWN:
