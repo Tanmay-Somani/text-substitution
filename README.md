@@ -12,7 +12,6 @@ A simple Python script that automates text substitution or expansion based on pr
 - [Usage](#usage)
 - [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -30,12 +29,20 @@ Text Substitution Tool is a Python script that allows you to automatically repla
 
 - Python 3.x
 
-### Installation
+### Installation 
 
 1. Clone this repository:
    ```sh
    git clone https://github.com/your-username/text-substitution.git
    cd text-substitution
 
+### Usage
 2. Install the required library:
    ```pip install keyboard```
+
+3. Customize the text_substitutions dictionary in the script with your own trigger-replacement pairs.
+Run the script using Python in the command line:
+```python text_substitution.py```
+
+4. Start typing in any text input field.
+Whenever you type a space, the script will check if any trigger words are present and replace them with their corresponding replacements.
